@@ -1,0 +1,24 @@
+python crud.py -a create -m Teacher -n "John Doe"
+python crud.py -a list -m Teacher
+python crud.py -a update -m Teacher -id 1 -n "Jane Doe"
+python crud.py -a remove -m Teacher -id 1
+
+python crud.py -a create -m Student -n "Alice" -g 2
+python crud.py -a list -m Student
+python crud.py -a update -m Student -id 1 -n "Alice Smith" -g 3
+python crud.py -a remove -m Student -id 1
+
+python crud.py -a create -m Grade -gr 5 -d "2025-02-17" -s 2 -sb 2
+python crud.py -a list -m Grade
+python crud.py -a update -m Grade -id 1 -gr 4 -g "2025-02-18" -s 1 -sb 2
+python crud.py -a remove -m Grade -id 1
+
+python crud.py -a create -m Subject -n "Math" -t 3
+python crud.py -a list -m Subject
+python crud.py -a update -m Subject -id 1 -n "Mathematics" -t 2
+python crud.py -a remove -m Subject -id 1
+
+python crud.py -a create -m Group -n "Group A"
+python crud.py -a list -m Group
+python crud.py -a update -m Group -id 1 -n "Group B"
+python crud.py -a remove -m Group -id 1

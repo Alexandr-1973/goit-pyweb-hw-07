@@ -1,9 +1,6 @@
 import random
-from datetime import datetime, timedelta
-
 from faker import Faker
 from sqlalchemy.exc import SQLAlchemyError
-
 from conf.db import session
 from conf.models import Teacher, Group, Student, Subject, Grade
 
